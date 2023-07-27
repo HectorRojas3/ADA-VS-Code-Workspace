@@ -1,0 +1,8 @@
+    1. Qué es HTML 
+    2. Cual es la estructura básica de un documento HTML
+    3. Elementos más importantes
+    4. Etiqiuetas de encabezados (h1...h6)
+    5. Etiqueta anchor <a href=""></a>
+    6. Etiqueda de imagen <img src="" alt="">
+    7. Etiquetas de listas  <ol></ol>, <ul></ul>, dentro de cada etiqueta deben
+        enlistarse los items <li></li>

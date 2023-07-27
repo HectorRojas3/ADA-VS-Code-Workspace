@@ -1,0 +1,31 @@
+EJEMPLO ALGORITMO PROCEDIMIENTOS MATEMATICOS 
+
+    Inicio
+
+   Escribir "Ingrese el primer número (A):"
+   Leer A
+   
+   Escribir "Ingrese el segundo número (B):"
+   Leer B
+   
+   // Operación de suma
+   suma = A + B
+   Escribir "El resultado de la suma es:", suma
+   
+   // Operación de resta
+   resta = A - B
+   Escribir "El resultado de la resta es:", resta
+   
+   // Operación de multiplicación
+   multiplicacion = A * B
+   Escribir "El resultado de la multiplicación es:", multiplicacion
+   
+   // Operación de división
+   Si B != 0 entonces
+      division = A / B
+      Escribir "El resultado de la división es:", division
+   Sino
+      Escribir "Error: No se puede dividir entre cero"
+   Fin Si
+   
+Fin

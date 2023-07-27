@@ -1,0 +1,1 @@
+let myArray = ['sushi', 'pasta', 'tajadas con carne molida'];

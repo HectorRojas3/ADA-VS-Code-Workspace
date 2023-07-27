@@ -1,0 +1,41 @@
+html{
+    font-size: 50px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+p{
+    color: rgb(194, 31, 31);
+    font-size: 40px;
+    background-color: lightgrey;
+}
+
+/*h1 {
+    color: rgb(194, 31, 31);
+}*/
+
+.synopsis {
+    font-size: 20px;
+    color: orange;
+    font-style: italic;
+}
+
+#subtitulo {
+    font-size: 45px;
+}
+
+#heading {
+    color: cyan;
+}
+
+.alert {
+    color: brown;
+}
+
+h1 {
+    color: olive;
+}

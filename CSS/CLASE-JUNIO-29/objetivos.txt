@@ -1,0 +1,42 @@
+1. Reconocer que es el flujo normal
+
+2. Identificar los Layouts
+    Distribución y disposición de los elementos en un diseño. En Css son tecnicas que nos permiten tomar los elementos 
+    de una pagina web y controlar donde se colocan en relación a factores como:
+        -La posición predeterminada en el flujo de diseño normal 
+        -Los elementos que estan a su alrededor
+        -El contenedor principal
+        -El viewport o ventana principal 
+
+3. Explorar los media queries y su uso
+
+4. Usar Layouts para crear el tablero de una calculadora
+
+- PROPIEDADES
+
+* DISPLAY 
+    Cambia el comportamiento de los elementos en flujo normal mediante los valores block, inline e inline-block.
+* FLOATS
+    Puede hacer que los elementos de nivel de bloque rodeen
+    el elemento por uno de sus lados
+* POSITION 
+    Controla con precision la ubicacion de cajas mediante 
+    el valor static, en cambio el valor fixed los elementos
+    se mantendran fijados en la parte superior izquierda
+
+FLEXBOX
+    Es un modulo de dinseño de cajas flexible. Facilita
+    la distribución de las cosas en una dimensión ya sea como una 
+    fila o como una columna. 
+
+    la propiedad aplicada es display: flex al elemento 
+    padre de los elementos que deseas distribuir
+
+    aims at providing a more efficient way to lay out, align and distribute 
+    space among items in a container
+
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background
+
+Diseño de cuadricula 
+
+    https://css-tricks.com/snippets/css/complete-guide-grid/

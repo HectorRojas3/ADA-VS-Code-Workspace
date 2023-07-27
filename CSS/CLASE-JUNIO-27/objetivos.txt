@@ -1,0 +1,10 @@
+1. Reconocer css y aprender su función 
+2. Identificar la sintaxis de css
+3. Usar los selectores para aplicar estilos 
+4. Usar css para dar estilos a una pagina HTML
+    -inline; usando el atributo style directamento en el elemento HTML
+    -internal; usando un elemento style en el head del documento HTML
+    -external; vinculando una hoja de estilos externos mediante el elemento link 
+5. Explorar las diferentes unidades disponibles en css
+    -absolutas. no dependen de nada
+    -relativas. dependen 

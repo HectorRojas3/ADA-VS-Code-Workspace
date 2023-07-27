@@ -1,0 +1,8 @@
+1. Identificar que son los ciclos
+
+2. Practicar el uso de los ciclos
+
+3. Definir qué son las funciones
+
+4. Usar funciones para reutilizar código
+

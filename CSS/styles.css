@@ -1,0 +1,43 @@
+*{
+
+    margin: 0; /*espacio externo entre elementos*/
+
+} /*selector universal*/
+
+body{
+
+    background-color: lightblue;
+
+} /*selector de tipo*/
+
+h1{
+
+    color: red;
+    background-color: magenta;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px; /*espacio interno de los elementos*/
+    border: 10px solid black; 
+    width: 300px; /*anchura de los elementos*/
+    height: 150px; /*altura de los elementos*/
+
+} /*selector de tipo*/
+
+#cabecera3{
+
+    color: royalblue;
+
+} /*selector de id*/
+
+.text-coral {
+
+    color: lightgrey;
+
+} /*selector de clase*/
+
+.text-center{
+
+    text-align: center;
+
+}
+
