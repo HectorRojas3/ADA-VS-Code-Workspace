@@ -1,0 +1,28 @@
+1. revisar las bases de react
+2. reconocer qué es un componente
+3. identificar la sintaxis basica de JSX
+
+Habilidad Blanda
+Mentalidad de crecimiento. 
+Mejorar: identificar oportunidades que son perfectas para mejorar,
+en los retos del dia a dia
+
+Qué es un componente:
+En React es una funcion que retorna un elemento
+que aparece en la pantalla.
+
+Qué es React:
+    1. Una biblioteca
+    2. Enfocada en las interfaces de usuario (web y apps)
+    3. Tecnología para FE
+
+Por qué React:
+    1. Eficiencia y rendimiento
+    2. Flexibilidad y mantenimiento
+    3. Comunidad
+    4. Facil de aprender
+
+Qué es JSX 
+    1. Es una extesion de la sintaxis de JS
+    2. Produce elementos de React
+    3. Combina HTML con JS
