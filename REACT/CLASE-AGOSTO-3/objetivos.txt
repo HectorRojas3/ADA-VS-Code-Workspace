@@ -1,0 +1,51 @@
+REACT HOOKS 2 & LIFECYCLE
+
+1. IDENTIFICAR LOS REACT HOOKS FALTANTES
+2. CONSTRUIR UN COMPONENTE PARA CONSUMIR API REST
+3. CREAR UN HOOK PERSONALIZADO
+
+QUE SON LOS HOOKS
+
+    FUNCIONES JS, SIRVEN PARA REUTILIZAR PARTES DE UN COMPONENTE FUNCIONAL
+    PERMITEN AÑADIR COMPORTAMIENTO A LOS COMPONENTES FUNCIONALES
+
+RELATIVAMENTE NUEVOS, A PARTIR DE LA VERSION 16.8 DE REACT
+FACILITAN LA CREACION DE INTERFACES INTERACTIVAS
+
+    useState(initialState)
+    useEffect(callback, [dependencies])
+
+    useContext(Context)
+    useReducer(reducer, state)
+    useMemo(callback, dependencies)
+
+    useRef(initialState)
+    useCallback(callback, [dependencies])
+
+Contextos y useContext
+
+en React contexto es una forma de compartir datos entre componentes sin tener que pasar
+explplícitamente las propiedades a lo largo de la jeraquía de componentes. 
+
+    se crea mediante la funcion createContext, proporcionando un valor predeterminado
+    opcional.
+
+    en un componente superior utiliza contexto.Provider para envolver los componentes hijo 
+    y proporcionar valor del contexto
+
+    En un componente secundario utiliza el hook useContext para acceder
+    al valor del contexto
+
+Estados complejos y useReducer
+
+este hook en react se usa para administrar estados complejos y realizar
+actualizaciones basadas en acciones. 
+
+    alternativa a useState
+
+    su estado implica logica mas avanzada
+
+    useReducer sigue el patron de diseño Reducer, usado en programacion funcional 
+    para actualizar estados en respuesta a una accion
+
+    
