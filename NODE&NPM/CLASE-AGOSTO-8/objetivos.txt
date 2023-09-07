@@ -1,0 +1,17 @@
+1. elementos de un servidor web
+    sw: conjunto de hw y sfw. que responde las solicitudes con recursos web
+    cliente: el que realiza una solicitud
+    servidor: responde la solicitud
+    tipos de peticiones:
+    GET-- 
+    POST--
+    PUT--
+    DELETE--
+
+    codigos de estado de respuesta http:
+    informativas (100 - 199)
+    satisfactorias (200 - 299)
+    errores de los clientes (300 - 399)
+    errores de los servidores (400 - 599)
+2. creando servidor web con node js
+3. configuracion, enrutamiento y parametros
