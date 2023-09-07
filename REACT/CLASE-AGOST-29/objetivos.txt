@@ -1,0 +1,15 @@
+1. Identificar qué es y cómo se usa el enrutamiento en Express
+2. Distinguir las diferentes formas de hacer enrutamiento en Express
+3. Crear rutas en un servidor web usando Express
+4. Practicar el uso de los parámetros en las rutas en Express
+
+Codigos de estado de respuesta HTTP
+https://developer.mozilla.org/es/docs/Web/HTTP/Status
+
+C POST
+R GET
+U PUT
+D DELETE
+
+Buena Practica
+1. _req: guion bajo para indicar que se necesita, pero no se esta usando ahora

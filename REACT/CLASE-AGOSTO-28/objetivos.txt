@@ -1,0 +1,7 @@
+Design systems en React
+
+Identificar diferencias entre UI/UX
+Conocer que es un system Design
+Usar chakra UI
+
+https://chakra-ui.com/docs/components/form-control/usage

@@ -1,0 +1,4 @@
+npm i chalk -E (instala version)
+npm i chalk -D (instala dependencias de desarrollo)
+
+Trabaja con ESM
