@@ -1,0 +1,56 @@
+1. Reconocer los elementos de un entorno de ejecución para JS
+2. Revisar qué es Node y su función
+3. Examinar el REPL
+4. Identificar qué es NPM y como se usa
+5. Instalar y usar chalk
+
+
+Entorno de ejecución
+    - Es la colección de elementos que permite la ejecución de un código.
+    - Permite que el código se transforme en instrucciones para ejecutar.
+    - Elementos como un depurador o bucle de eventos.
+
+Entorno de ejecución de JavaScript
+    - En el navegador (motor v8 de google)
+    - En el sistema opertivo de forma local (node)
+
+Ambos entornos de ejecucion cuentan con 
+    - Un interprete de JS
+    - Librerias (para realizar comunicacion entre SO y DOM 'document object model')
+    - EventLoop (controlador)
+    - Timers
+
+Node.js
+Ademas de ser el entorno de ejecucion para js de forma locar
+    - se usa del lado del servidor
+    - soporta ejecución asincrona
+    - arquitectura basada en eventos 
+
+EventLoop
+ver archivo eventLoop.js
+
+Pasos para crear un proyecto 
+    1. abrir consola de comandos
+    2. ejecutar mkdir + nombre de la carpeta para crear una nueva carpeta
+    3. ejecutar cd + nombre de la carpeta para movernos a esa carpeta desde la consola 
+    4. ejecutar code . para abrir editor de codigo desde la consola 
+
+REPL
+Read Eval Print Loop
+
+    - Herramienta de linea de comandos
+    - Compuesta por 
+        * función de lectura
+        * función de evaluacion
+        * función de salida
+        * ciclo de ejecución
+
+Modulos
+(ver archivo sum.js)
+    - funcionalidad organizada en uno o archivos multiples
+    - puede ser sencilla o compleja
+    - pueden ser construidos desde cero o instalar uno ya prefabricado
+    - son reutilizables
+
+
+
