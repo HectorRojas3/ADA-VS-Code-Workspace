@@ -1,0 +1,25 @@
+Instala Node.js y npm: Antes de que puedas usar npm, necesitas tener Node.js instalado. Al instalar Node.js, npm se instala automáticamente. Puedes descargarlo desde la página oficial de Node.js.
+
+Inicia un nuevo proyecto:
+
+Abre la terminal o línea de comandos. Navega al directorio donde quieras crear tu nuevo proyecto. Ejecuta npm init y sigue las instrucciones. Al finalizar, tendrás un archivo package.json en tu directorio. Instala paquetes/librerías:
+
+Decide qué paquete deseas instalar. Como ejemplo, digamos que quieres usar lodash. En la terminal, escribe npm install lodash. Esto instalará lodash y lo agregará a tu package.json. Utiliza el paquete en tu código:
+
+En tu archivo JavaScript, puedes requerir e utilizar el paquete. Usando el ejemplo anterior:
+
+const _ = require('lodash');
+const arr = [1, 2, 3];
+console.log(_.reverse(arr));  // [3, 2, 1]
+
+Ejecuta tu código: Si tienes un archivo index.js, puedes ejecutarlo usando node index.js en la terminal.
+
+Define y ejecuta scripts: Puedes definir scripts en tu package.json bajo la clave "scripts". Por ejemplo:
+
+"scripts": {
+  "start": "node index.js"
+}
+
+Para ejecutar este script, simplemente escribe npm run start en la terminal.
+
+¡Listo! Con estos pasos y comandos básicos, deberías estar preparado para comenzar a trabajar con npm y JavaScript.
