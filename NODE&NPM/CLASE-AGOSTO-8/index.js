@@ -23,5 +23,5 @@ const server = http.createServer((req, res) => {
 
 //listen
 server.listen(PORT, ()=> {
-console.log(`El servidor esta en el puerto ` + PORT);
-});
+    console.log(`El servidor esta en el puerto ` + PORT);
+    });
