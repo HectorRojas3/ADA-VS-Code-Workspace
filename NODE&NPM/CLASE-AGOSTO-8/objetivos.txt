@@ -13,5 +13,18 @@
     satisfactorias (200 - 299)
     errores de los clientes (300 - 399)
     errores de los servidores (400 - 599)
+
+
+
 2. creando servidor web con node js
+
+
 3. configuracion, enrutamiento y parametros
+
+    rutas en servidores
+        tambien conocidos como endpoints
+        a las rutas se le realizan las peticioines 
+        la respuesta (informacion) depende de la solicitud y la ruta donde se realiza 
+        la peticion 
+
+    npm i nodemon (document object map) -D (dependencia de desarrollo) -E(version exacta)  
