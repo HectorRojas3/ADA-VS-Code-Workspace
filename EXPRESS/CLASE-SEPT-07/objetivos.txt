@@ -1,4 +1,36 @@
+momentos importantes:
+    repaso (enrutamiento express, rutas con express, express router): 0 - 14
+    pregunta n.1: 15
+    ejemplo: 18
+    tipos de middlewares: 27
+    Empieza el codigo: 32
+    inicio de middleware a nivel de aplicacion: 41
+    pausa 45 - 53
+    punto importante 1:07 mw integrado express.json
+    creacion de express router 1:19. 
+    middleware de terceros: multer 1:29... morgan 1:30
+        app.get("/", preparar, cocinar, hornear, decorar, (req, res) => {logica de respuesta... res.send});   
 1. definicion de middleware
+    Un software que brinda servicios y funciones comunes a las aplicaciones.
+        app.use('nombreDelMiddleware')
+    permite diseñar aplicaciones mas eficientes
+        function(){algo..} 
+    reducen la redundancia
+    abarca servidores, sistemas de autenticacion, herramientas de msjs
+
+    En express los middlewares pueden
+        ser funciones que realizan varias tareas.
+        acceder a los objetos req, res.
+        terminar o no un ciclo solicitud/respuesta
+        invocar una funcion llamada 'next()' en caso de no terminar el ciclo
+    
+        se dividen por tipo
+            a nivel de aplicacion: validacion para acceder a otras rutas
+            a nivel de direccionador: prepara el camino para el cambio de ruta
+            manejo de errores
+            incoporado: incluidos con express 
+            de tercero: paquetes npm instalados
+
 2. crear un middleware con express
 3. diferentes tipos de middleware en express
 4. middlewares en enrutadores de express
