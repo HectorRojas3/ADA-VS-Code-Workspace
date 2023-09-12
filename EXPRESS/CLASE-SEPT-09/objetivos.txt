@@ -1,0 +1,40 @@
+Middlewares 2
+
+express.json & express.static
+
+1. Definir los middlewares json & static
+    express.json
+        Es una función de middleware integrada en Express.
+        Analiza las solicitudes entrantes con cargas JSON.
+        Añade un objeto de JavaScript en el objeto request llamado body.
+        Solo examina las solicitudes en las que el encabezado Content-Type es application/json
+    
+
+2. Enunciar las opciones de cada uno de los middlewares.
+
+    express.json([optios])
+        - inflate
+        - limit
+        - reviver
+        - strict
+        - type
+        - verify
+    
+    express.static([options])
+        Archivos o recursos que no son dinámicos, es decir, no cambian frecuentemente.
+
+
+3. Servir archivos estáticos en express.
+
+Momentos importantes. 
+    repaso clase anterior 1 - 10
+    practica 30
+
+        Crea un archivo app.js.
+        Importa Express y configura un servidor en el puerto 3000.
+        Habilita el middleware para procesar JSON en solicitudes.
+        Define un middleware para procesar datos JSON en solicitudes POST.
+        Verifica que la solicitud sea POST y contenga datos JSON válidos.
+        Define una ruta POST (/enviardatos) que maneje los datos JSON.
+        Muestra los datos procesados en la consola.
+

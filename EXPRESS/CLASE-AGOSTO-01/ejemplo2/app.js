@@ -1,0 +1,5 @@
+const pokeApi = fetch('http://pokeapi.co/api/v2/pokemon')
+.then(res => res.json())
+.then(info => console.log(info.results[13]))
+.catch(err => console.log(err))
+//console.log(pokeApi)
