@@ -1,0 +1,35 @@
+Identificar que son las promesas
+
+    En JS representa se representan como objetos
+    que pueden estar disponibles, ahora, en el futuro o nunca.
+
+    Los callbacks son funciones que se llaman cuando se completa una tarea 
+    asincrona. Se puede realizar una tarea asincrona y luego continuar
+    la ejecucion del porgrama cuando esta se complete
+
+   
+Como funcionan las promesas
+
+     Ver ejemplo.
+
+
+Identificar que son las funciones asincronas
+
+    Permiten realizar las tareas sin bloquear la ejecucion del programa
+    Permiten que el programa continue mientras la tarea se realiza en segundo plano 
+    utiles para trabajar con operaciones que pueden tardar mucho tiempo en completarse
+        realizar calculos complejos.
+        cargar detos desde unsa base de datos remot
+
+Explorar como funcionan las funciones asincronas
+
+    async, await
+
+    son promesas con una sintaxis mas amigable
+
+        devuelve un elemento promise
+        si la funcion async devuelve un valor la promesa se resuelve
+        await es una expresion que puede ser incluida en la funcion async
+            es usado para esperar la ejecucion de una promesa (solo puede ser usado
+            dentro de una funcion async)
+
