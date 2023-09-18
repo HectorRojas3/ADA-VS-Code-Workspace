@@ -1,0 +1,25 @@
+COMO CREAR UN API CON EXPRESS EN EXPRESS
+
+MOMENTOS IMPORTANTES:
+    INTRO
+    REPASO
+
+
+Definir qué es una API
+    - Es un conjunto de definiciones y protocolos que se usan para 
+      diseñar e integrar el software de las aplicaciones.
+    - Los APIs fueron creados para poder compartir información e integrar aplicaciones, sistemas y dispositivos diferentes
+    - Añaden nuevas funcionalidades reusables a sistemas existentes, reduciendo el costo de desarrollo
+
+Definir qué es una REST API 
+        Los endpoints dentro de un API REST sirven para:
+        Identificar y poder mantener independientes los recursos y el acceso a los mismos.
+
+Listar los criterios de REST.
+    - Conjunto de estándares o límites de arquitectura.
+    - Trabaja bajo una arquitectura cliente-servidor.
+    - Comunicación entre el cliente y el servidor sin estado.
+    - Permite el uso de caché.
+    - La información se transfiere de forma estandarizada.
+
+Crear una API REST usando express.
